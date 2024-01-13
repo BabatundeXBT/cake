@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Meehar's Treats</title>
+    <style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #5c2828;
+      }
+    li {
+        float: left;
+      }
+      
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+    li a:hover {
+        background-color: #111111;
+      } 
+    .container {
+        margin: auto;
+        margin-top: 0px;
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .container{
+        background-image: url('images/l.jpg');
+        background-size: 100% 70%;
+        background-attachment: fixed;
+    }
+    button{
+        color: white;
+        background-color: brown;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <p style="text-align: center;">
+            <ul>
+                <li><a href='cakeBusiness.html'>Home</a></li>
+                <li><a href="cakeBusiness.html/#oursamples">View Samples</a></li>
+                <li><a href="contact.html">Our Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </p>
+        </header>  
+    <div class="container">
+    <form>
+        <label for="fname">fill in your card details:</label><br><br>
+        <input type="text" id="fname" name="fname" placeholder="card number"><br><br>
+        <input type="text" id="fname" name="fname" placeholder="cardholder name"><br>
+        <label for="fname">Enter M/Y</label><br>
+        <input type="text" id="fname" name="fname" placeholder="MM/YY"><br>
+        <label for="fname">CVV:</label><br>
+        <input type="password" id="fname" name="fname" placeholder="CVV"><br>
+    </form>
+    <button>place order</button>
+    </div>
+</body>

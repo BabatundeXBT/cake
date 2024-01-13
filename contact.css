@@ -1,0 +1,58 @@
+    body {
+        background-image: url('images/v.jpg');
+    font-family: Arial, sans-serif;
+    margin:auto;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #5c2828;
+    }
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #111111;
+    }  
+    .contact{
+    font-size: x-large;
+    text-align: center;
+    color: brown;
+    }
+    .container {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    }
+    .formgroup {
+    margin-bottom: 30px;
+    }
+    .formgroup label {
+    display: block;
+    font-weight: bold;
+    }
+    
+    .formgroup input[type="text"],
+    .formgroup input[type="email"],
+    .formgroup textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    .label{
+    font-size: large;
+    color: aquamarine;
+    }
